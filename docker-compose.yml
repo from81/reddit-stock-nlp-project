@@ -33,5 +33,5 @@ services:
         volumes:
             - ./superset_docker/superset_config.py:/etc/superset/superset_config.py
         ports:
-            - "9999:8088"
+            - "8088:8088"
         # command: ["gunicorn", "superset:app"]
